@@ -1,0 +1,39 @@
+/* Inicio */
+ul {
+    list-style: none;
+}
+
+/* Qué es SEO */
+
+/* Servicios */
+
+#que-es-seo{
+    color:#fff;
+}
+
+#que-es-seo{
+    background-color: #202020;
+}
+
+#servicios{
+    background-color: black;
+}
+
+#contacto{
+    background-image: url(../images/fondo-contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: #fff;
+}
+
+footer a:hover{
+    color: rgb(102, 252, 241);
+}
