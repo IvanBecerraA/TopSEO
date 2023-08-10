@@ -1,39 +1,70 @@
-/* Inicio */
+/* ------------------- Propiedades Personalizadas ------------------- */
+:root {
+    --color-1: rgb(102, 252, 241);
+}
+
+.color-1 {
+    color: var(--color-1) !important;
+}
+
+.bg-color-1 {
+    background-color: var(--color-1) !important;
+}
+/* ------------------- Nav ------------------- */
+nav > div > a {
+    font-size: 2rem !important;
+    font-weight: bold;
+}
+
+/* ------------------- Inicio ------------------- */
 ul {
     list-style: none;
 }
 
-/* Qué es SEO */
+#inicio .card-body {
+    color: #FFF; 
+    background-color: rgba(0, 0, 0, 0.7)
+}
 
-/* Servicios */
+#inicio .card-body h1{
+    font-size: 4.5rem;
+}
 
-#que-es-seo{
+/* ------------------- Qué es SEO ------------------- */
+#que-es-seo {
     color:#fff;
-}
-
-#que-es-seo{
     background-color: #202020;
+    height: 80vh;
+    display: flex;
+    align-items: center;
 }
 
-#servicios{
+/* ------------------- Servicios ------------------- */
+#servicios {
     background-color: black;
 }
 
-#contacto{
+/* ------------------- Contacto ------------------- */
+#contacto {
     background-image: url(../images/fondo-contacto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-footer{
+#contacto > div > div {
+    max-width: 600px;
+}
+
+/* ------------------- Footer ------------------- */
+footer {
     background-color: black;
 }
 
-footer a{
+footer a {
     color: #fff;
 }
 
-footer a:hover{
-    color: rgb(102, 252, 241);
+footer a:hover {
+    color: var(--color-1);
 }
