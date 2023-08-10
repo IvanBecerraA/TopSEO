@@ -12,3 +12,9 @@ Proyecto realizado con fines educativos y para el autoaprendizaje.
 
 ### Link:
 [SEO RyO](https://ivanbecerraa.github.io/TopSEO/ "SEO RyO")
+
+### Galería
+
+![alt](images/galeria1.png)
+![alt](images/galeria2.png)
+![alt](images/galeria3.png)
